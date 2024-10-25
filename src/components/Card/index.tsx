@@ -67,7 +67,7 @@ export function Card({ coffee }: props) {
   }, [isItemAdded])
 
   return (
-    <Container>
+    <Container >
       <ImgCard src={coffee.image} alt={coffee.title} />
       <TagCoffee>
         {coffee.tags.map((tag) => (
